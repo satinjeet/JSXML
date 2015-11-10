@@ -3,7 +3,7 @@ A minimal JS XML to JSOn parser.
 A simple method to convert XML to json object using DOM parser class
 
 <h2> Sample XML data</h2>
-<pre>
+<code>
 	<script id="input" type="text/xml">
 	    <note>
 	        <to>Tove</to>
@@ -16,17 +16,17 @@ A simple method to convert XML to json object using DOM parser class
 	        <parallel>Some content</parallel>
 	    </note>
 	</script>
-</pre>
+</code>
 
 <hr>
 
 <h3>Usage</h3>
-<pre>
+<code>
 	<script>
 		parser = new xmlP(document.getElementById('input').innerHTML);
 		console.log(parser.parseToJSON());
 	</script>
-</pre>
+</code>
 
 <hr>
 
